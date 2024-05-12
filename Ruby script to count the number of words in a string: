@@ -1,0 +1,7 @@
+def word_count(text)
+  text.split.length
+end
+
+text = "The quick brown fox jumps over the lazy dog."
+word_count_result = word_count(text)
+puts "The text contains #{word_count_result} words."
